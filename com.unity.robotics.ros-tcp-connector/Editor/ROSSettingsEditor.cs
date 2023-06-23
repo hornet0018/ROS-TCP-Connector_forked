@@ -13,7 +13,7 @@ namespace Unity.Robotics.ROSTCPConnector.Editor
         [MenuItem("Robotics/ROS Settings", false, 0)]
         public static void OpenWindow()
         {
-            ROSSettingsEditor window = GetWindow<ROSSettingsEditor>(false, "ROS Settings", true);
+            ROSSettingsEditor window = GetWindow<ROSSettingsEditor>(false, "ROS Settings_custom", true);
             window.minSize = new Vector2(300, 65);
             window.maxSize = new Vector2(600, 500);
             window.Show();
